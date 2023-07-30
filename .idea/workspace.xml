@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd2f9bfb-c1f7-4bdd-9351-8b674b5bc839" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test_sign_out.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_add_a_player.robot" beforeDir="false" afterPath="$PROJECT_DIR$/test_add_a_player.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_invalid_login.robot" beforeDir="false" afterPath="$PROJECT_DIR$/test_invalid_login.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_login_rf.robot" beforeDir="false" afterPath="$PROJECT_DIR$/test_login_rf.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_sign_out.robot" beforeDir="false" afterPath="$PROJECT_DIR$/test_sign_out.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

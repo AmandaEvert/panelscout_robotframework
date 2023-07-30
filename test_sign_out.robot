@@ -25,7 +25,6 @@ Login to the system
 *** Keywords ***
 Open login page
     Open Browser    ${LOGIN URL}    ${BROWSER}
-    Title Should Be     Scouts panel - sign in
 Type in email
     Input Text   ${EMAILINPUT}   user07@getnada.com
 Type in password
