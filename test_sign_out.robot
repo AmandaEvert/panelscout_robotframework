@@ -3,13 +3,13 @@ Library  SeleniumLibrary
 Documentation    Suite description #automated tests for scout website
 
 *** Variables ***
-${LOGIN URL}        https://scouts-test.futbolkolektyw.pl/en
+${LOGIN URL}        https://dareit.futbolkolektyw.pl/login
 ${BROWSER}      Chrome
 ${SIGNINBUTTON}     xpath=//span[starts-with(@class,'MuiButton-label')]
 ${EMAILINPUT}       xpath=//*[@id='login']
 ${PASSWORDINPUT}        xpath=//*[@id='password']
 ${PAGELOGO}     xpath=//main/div[3]/div[1]/div/div[1]
-${SIGNOUTBUTTON}        xpath=//span[text()='Sign out']
+${SIGNOUTBUTTON}        xpath=//div/ul[2]/div[2]/div[2]/span
 
 *** Test Cases ***
 Login to the system
@@ -25,6 +25,7 @@ Login to the system
 *** Keywords ***
 Open login page
     Open Browser    ${LOGIN URL}    ${BROWSER}
+    Title Should Be     Scouts panel - sign in
 Type in email
     Input Text   ${EMAILINPUT}   user07@getnada.com
 Type in password
